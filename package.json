@@ -1,12 +1,7 @@
 {
-  "name": "WIL-Site",
-  "version": "1.0.0",
-  "description": "A static website for WIL",
-  "main": "index.html",
+  "name": "Social-Awareness-5",
   "scripts": {
-    "start": "http-server ."
-  },
-  "dependencies": {
-    "http-server": "^0.12.3"
+    "build": "babel src -d lib",
+    "test": "jest"
   }
 }
