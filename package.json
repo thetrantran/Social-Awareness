@@ -1,9 +1,11 @@
 {
+  "name": "my-static-website",
+  "version": "1.0.0",
+  "description": "A simple static website with HTML, CSS, and JavaScript",
+  "main": "index.html",
   "scripts": {
-    "prebuild": "jest",
-    "build": "your build command here"
+    "start": "http-server ."
   },
+  "dependencies": {},
   "devDependencies": {
-    "jest": "^29.4.1"  
-  }
-}
+    "http-server": "^0.12.3"
