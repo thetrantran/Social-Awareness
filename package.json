@@ -1,7 +1,7 @@
 {
-  "name": "Social-Awareness-5",
+  "name": "Social-Awareness",
   "scripts": {
     "build": "babel src -d lib",
-    "test": "jest"
+    "prebuild": "jest"
   }
 }
