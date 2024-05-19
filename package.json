@@ -1,7 +1,9 @@
 {
-  "name": "Social-Awareness",
   "scripts": {
-    "build": "babel src -d lib",
-    "prebuild": "jest"
+    "prebuild": "jest",
+    "build": "your build command here"
+  },
+  "devDependencies": {
+    "jest": "^29.4.1"  // Replace with the appropriate version
   }
 }
